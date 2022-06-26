@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List 2021</title>
+    <!--link for CSS code-->
+	<link rel="stylesheet" href="classproject.css" />
+</head>
+<body>
+	
+	<header>
+        <!--here, we are going to put tasks of the day and then it will directly going to add up into the next input
+        section.-->
+		<h1>TO DO LIST</h1>
+		<form id="new-task-form">
+			<input type="text" name="new-task-input" id="new-task-input" placeholder="Today's Tasks" />
+			<input type="submit" id="new-task-submit" value="Add task" />
+		</form>
+	</header>
+	<main>
+        <!--here, all the taks are going to line up and we can also edit or delete it from the list.-->
+		<section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+
+				<div class="task">
+					<div class="content">
+						<input type="text" class="text"  value="List of Tasks" readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> 
+
+			</div>
+		</section>
+	</main>
+
+    <!--link for JS code.-->
+	<script src="classproject.js"></script>
+</body>
+</html>
