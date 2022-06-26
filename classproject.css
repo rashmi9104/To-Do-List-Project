@@ -15,12 +15,17 @@
 }
 
 body {
-	margin-top: 80px;
+	margin: 50px 150px 30px 150px;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 	color: #FFF;
 	background-color: var(--dark);
+	border: 5px #c1a7cf solid;
+	border-radius: 1rem;
+	padding-top: 50px;
+	
+
 }
 
 header {
@@ -28,6 +33,7 @@ header {
 	max-width: 800px;
 	width: 100%;
 	margin: 0 auto;
+
 }
 
 header h1{ 
@@ -39,6 +45,7 @@ header h1{
 
 #new-task-form {
 	display: flex;
+	margin-top: 30px;
 	
 }
 
